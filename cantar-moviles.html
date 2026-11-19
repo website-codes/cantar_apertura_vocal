@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111019">
+  <title>Cantar — modo móvil</title>
+  <script>
+    const appUrl = new URL("cantar-apertura-vocal.html", window.location.href);
+    appUrl.searchParams.set("mobile", "1");
+    window.location.replace(appUrl.href);
+  </script>
+</head>
+<body>
+  <p>Abriendo la versión móvil de <a href="cantar-apertura-vocal.html?mobile=1">Cantar</a>…</p>
+</body>
+</html>
